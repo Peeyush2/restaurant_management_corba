@@ -1,0 +1,15 @@
+module HelloApp
+{
+  interface Hello
+  {
+  string sayHello();
+  boolean authenticate(in string userName, in string password, in string role);
+  string getMenu();
+  boolean postOrder(in string order);
+  string orderStatus(in string username);
+
+  string getAllActiveOrders();
+  // oneway void shutdown();
+  
+  };
+};
